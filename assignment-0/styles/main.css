@@ -1,0 +1,30 @@
+body{
+    text-align:center;
+    /*Places all text and images at the center of the page */
+}
+img{
+    border-radius:100%;
+    border-style:none;
+    /*Gives the image a circular look without showing any borders around it*/
+}
+
+.works{
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+    /*Allows the video to cover the whole page and stick to the page without being able to alter its position*/
+}
+.colony{
+    /*background:#333;
+    background: rgba(0,0,0,0.25);*/
+    background-image: radial-gradient(
+        rgba(8, 216, 25, 0.614),
+        rgba(229, 255, 0, 0.993)
+    );
+    
+}
+
