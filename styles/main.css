@@ -1,0 +1,26 @@
+body{
+    text-align:center;
+    /*Places all text and images at the center of the page */
+}
+img{
+    border-radius:100%;
+    border-style:none;
+    /*Gives the image a circular look without showing any borders around it*/
+}
+.profile:hover {
+    /*When the mouse pointer is placed over the image, 
+    it changes it's color to grey for a short period of time as a sort of transition*/
+    filter: grayscale(2);
+    border-style: none;
+    border-radius: 100%;
+    transition: background-size 0.1s ease;
+    filter: grayscale(2);
+    transition: background-size 0.1s ease;
+}
+h1{
+   /*Changes the color of the text and the size of the text and also the font-family*/
+    font-family: 'Baskervville', serif;
+    font-size:3rem;
+    color:yellowgreen;
+}
+
